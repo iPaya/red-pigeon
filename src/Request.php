@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2016 ipaya.cn
  */
 
-namespace iPaya\Psr7\Swoole;
+namespace iPaya\Swoole\Psr7;
 
 use Swoole\Http\Request as SwooleRequest;
 

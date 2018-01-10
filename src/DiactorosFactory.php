@@ -4,9 +4,8 @@
  * @copyright Copyright (c) 2016 ipaya.cn
  */
 
-namespace iPaya\Psr7;
+namespace iPaya\Swoole\Psr7;
 
-use RedPigeon\Swoole\Request;
 use Zend\Diactoros\ServerRequest;
 use Zend\Diactoros\Stream;
 

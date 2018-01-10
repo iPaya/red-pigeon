@@ -1,0 +1,35 @@
+{
+    "name": "zhangdi/red-pigeon",
+    "description": "Swoole Http 服务器 PSR 7 转换器",
+    "keywords": [
+        "swoole",
+        "http",
+        "request",
+        "response",
+        "psr",
+        "psr-7",
+        "bridge"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-swoole": ">= 2.0.0",
+        "zendframework/zend-diactoros": "*"
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RedPigeon\\": "src"
+        }
+    }
+}

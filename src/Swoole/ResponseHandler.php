@@ -1,9 +1,10 @@
 <?php
 /**
- * @copyright 2018 Di Zhang <zhangdi_me@163.com>
+ * @link http://ipaya.cn/
+ * @copyright Copyright (c) 2016 ipaya.cn
  */
 
-namespace RedPigeon\Swoole;
+namespace iPaya\Psr7\Swoole;
 
 
 use Psr\Http\Message\ResponseInterface;

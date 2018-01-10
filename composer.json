@@ -1,6 +1,6 @@
 {
-    "name": "zhangdi/red-pigeon",
-    "description": "Swoole Http 服务器 PSR 7 转换器",
+    "name": "ipaya/swoole-psr7-bridge",
+    "description": "Swoole Http PSR 7 Bridge",
     "keywords": [
         "swoole",
         "http",
@@ -29,7 +29,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "RedPigeon\\": "src"
+            "iPaya\\Psr7": "src"
         }
     }
 }
